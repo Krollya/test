@@ -11,6 +11,15 @@ explicitly, e.g.
   .italic { font-variation-settings: "slnt" 10deg }
 
 */
+
+@media (min-width: 1200px) {
+ .rwd-MastHead {
+ flex-direction: row;
+ justify-content: space-between;
+ max-width: 1000px;
+ margin: 0 auto;
+ }
+}
 @font-face {
     font-family: "Inter var experimental";
     font-weight: 100 900;
