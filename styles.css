@@ -20,6 +20,16 @@ explicitly, e.g.
  margin: 0 auto;
  }
 }
+
+@media (min-width: 1000px) {
+ .rwd-Nav {
+ margin: 0;
+ padding: 0;
+ }
+}
+
+
+
 @font-face {
     font-family: "Inter var experimental";
     font-weight: 100 900;
